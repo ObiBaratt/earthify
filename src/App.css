@@ -1,0 +1,6 @@
+.headline {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
