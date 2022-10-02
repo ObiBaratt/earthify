@@ -20,10 +20,10 @@ const Navbar = () => {
                 About
             </NavLink>
             <NavLink
-                to="/contact"
+                to="/charities"
                 className={({ isActive }) => (isActive ? "link-active" : "link")}
                 >
-                Contact
+                Charities
             </NavLink>
             </div>
       </nav>
