@@ -1,5 +1,5 @@
-import Navbar from "../Components/Navbar/Navbar";
-import Signup from "../Components/Signup/Signup";
+import Navbar from "../../Components/Navbar/Navbar";
+import Signup from "../../Components/Signup/Signup";
 
 const About = () => {
     return (
