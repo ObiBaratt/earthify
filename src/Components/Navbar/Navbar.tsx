@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='org'>Donanimal</div>
         <div className='navItems'>
             <NavLink
-                to="/"
+                to="/" end
                 className={({ isActive }) => (isActive ? "link-active" : "link")}
                 >
                 Home
