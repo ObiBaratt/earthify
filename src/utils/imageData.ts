@@ -7,7 +7,7 @@ export const imageData = [
     {
         image: "imgs/gorilla.jpg",
         text: "filler text",
-        name: "Silverback Mountain Gorilla",
+        name: "Silverback Mountain",
     },
     {
         image: "imgs/leopard.jpg",
