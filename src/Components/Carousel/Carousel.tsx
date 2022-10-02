@@ -37,6 +37,10 @@ const Carousel = () => {
                         <img src={slide.image} alt={slide.name} />
                         <div className="name">{slide.name}</div>
                         <div className="text">{slide.text}</div>
+                        <div className="bottom-right">
+                          <button className="signup">Sign Up</button>
+                          <button className="donate">Donate</button>
+                        </div>
                       </>
                     )}
           </div>
