@@ -33,7 +33,7 @@ img {
   .name {
     font-size: 2rem;
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -44,7 +44,33 @@ img {
     position: absolute;
     top: 82%;
     left: 50%;
+    width: 600px;
     transform: translate(-50%, -50%);
     color: white;
     font-weight: 500;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+  .donate {
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    width: 6rem;
+    height: 2rem;
+  }
+
+  .signup {
+    /* background-color: red; */
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    margin-right: 10px;
+    width: 6rem;
+    height: 2rem;
   }
