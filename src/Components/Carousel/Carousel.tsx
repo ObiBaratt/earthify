@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./Carousel.css";
 import { imageData } from "../../utils/imageData";
 
+import { charities } from "../../utils/charities";
+
 const Carousel = () => {
     const [cur, setCur] = useState(0);
     const length = imageData.length;
@@ -15,6 +17,11 @@ const Carousel = () => {
         setCur(cur === 0 ? length - 1 : cur - 1);
         console.log(cur);
       };
+
+      const handleDonate = () => {
+        const charity = charities[Math.floor(Math.random() * charities.length)];
+        window.location.replace(charity.url)
+      }
 
     return (
         <div className='carousel'>
@@ -38,8 +45,8 @@ const Carousel = () => {
                         <div className="name">{slide.name}</div>
                         <div className="text">{slide.text}</div>
                         <div className="bottom-right">
-                          <button className="signup">Sign Up</button>
-                          <button className="donate">Donate</button>
+                          {/* <button className="signup">Sign Up</button> */}
+                          <button onClick={handleDonate} className="donate">Donate</button>
                         </div>
                       </>
                     )}
