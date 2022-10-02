@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# The Project
+This is our submisssion for the Earthify Hacks 2.0 Hackathon on 10/1/2022. The topic was "Ecosystem".
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Team
+### Design:
+Chris Park
 
-## Available Scripts
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chris-park-855577191/)
 
-In the project directory, you can run:
 
-### `npm start`
+### Developers
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Backend: Saugat Karki
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saugat-karki/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Full-Stack: Obi Baratt
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/obibaratt/)
 
-### `npm test`
+## Inspiration
+- We wanted to create something purely focused on routing traffic and interest to charities supporting endangered animals.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What it does
+- Persuades visitors to: 1. Donate to charities, 2. Signup to a mailing list to get regular reminders to donate.
 
-### `npm run build`
+## How we built it
+- Serverless architecture with React, TypeScript, Google Cloud, and CI/CD with Netlify.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Challenges we ran into
+- Designer: Generating an idea and bringing it to life quickly.
+- Developers: Trying to keep up with the designers.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Accomplishments that we're proud of
+- Getting a project done for our first Hackathon!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## What we learned
+- Starting and finishing a project in a few hours is really hard. We struggled with scope and
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## What's next for Donanimal
+- Sharing this project on our social media to generate interest and traffic towards the relevant charities!
+- Giving the developers more time to catch up to the amazing work done by our designer.
