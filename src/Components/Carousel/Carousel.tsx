@@ -33,7 +33,11 @@ const Carousel = () => {
                 return (
                 <div key={index}>
                     {index === cur && (
+                      <>
                         <img src={slide.image} alt={slide.name} />
+                        <div className="name">{slide.name}</div>
+                        <div className="text">{slide.text}</div>
+                      </>
                     )}
           </div>
         );
