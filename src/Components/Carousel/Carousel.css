@@ -30,6 +30,10 @@ img {
     color: white;
   }
 
+  .arrow:hover {
+    color: red;
+  }
+
   .name {
     font-size: 2rem;
     position: absolute;
@@ -58,19 +62,17 @@ img {
 
   .donate {
     background-color: red;
-    border-radius: 0.75rem;
-    border: none;
-    font-weight: bold;
-    width: 6rem;
-    height: 2rem;
   }
 
-  .signup {
-    /* background-color: red; */
+  .carouselBtn {
     border-radius: 0.75rem;
     border: none;
     font-weight: bold;
     margin-right: 0.625rem;
     width: 6rem;
     height: 2rem;
+  }
+
+  .carouselBtn:hover {
+    background-color: yellow;
   }

@@ -10,7 +10,7 @@ export async function handleSignup2(email: string){
     })
 }
 
-export default async function handleSignup(emailData: string) {
+export default async function signup(emailData: string) {
     console.log("check")
 
     try {
