@@ -45,7 +45,7 @@ const Carousel = () => {
                         <div className="name">{slide.name}</div>
                         <div className="text">{slide.text}</div>
                         <div className="bottom-right">
-                          {/* <button className="signup">Sign Up</button> */}
+                          <button className="signup">Sign Up</button>
                           <button onClick={handleDonate} className="donate">Donate</button>
                         </div>
                       </>
