@@ -10,9 +10,7 @@ export async function handleSignup2(email: string){
     })
 }
 
-export default async function handleSignup(emailData: string) {
-    console.log("check")
-
+export default async function signup(emailData: string) {
     try {
     const docRef = await addDoc(collection(db, "signup"), {
         email: emailData,
