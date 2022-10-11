@@ -1,8 +1,8 @@
 img {
-    width: 800px;
-    height: 700px;
+    width: 60rem;
+    height: 43.75rem;
     object-fit: cover;
-    border-radius: 25px;
+    border-radius: 1.5rem;
 }
 
 .carousel {
@@ -28,6 +28,10 @@ img {
 
   .arrow {
     color: white;
+  }
+
+  .arrow:hover {
+    color: red;
   }
 
   .name {
@@ -58,19 +62,17 @@ img {
 
   .donate {
     background-color: red;
-    border-radius: 5px;
+  }
+
+  .carouselBtn {
+    border-radius: 0.75rem;
     border: none;
     font-weight: bold;
+    margin-right: 0.625rem;
     width: 6rem;
     height: 2rem;
   }
 
-  .signup {
-    /* background-color: red; */
-    border-radius: 5px;
-    border: none;
-    font-weight: bold;
-    margin-right: 10px;
-    width: 6rem;
-    height: 2rem;
+  .carouselBtn:hover {
+    background-color: yellow;
   }

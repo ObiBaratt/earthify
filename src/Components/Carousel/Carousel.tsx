@@ -4,7 +4,9 @@ import { imageData } from "../../utils/imageData";
 
 import { charities } from "../../utils/charities";
 
-const Carousel = () => {
+import { CarouselProps } from "../../utils/interfaces";
+
+const Carousel = ({ hidden, setHidden }: CarouselProps) => {
     const [cur, setCur] = useState(0);
     const length = imageData.length;
 
@@ -21,6 +23,10 @@ const Carousel = () => {
       const handleDonate = () => {
         const charity = charities[Math.floor(Math.random() * charities.length)];
         window.location.replace(charity.url)
+      };
+
+      const handleSignup = () => {
+        setHidden(!hidden);
       }
 
     return (
@@ -45,8 +51,8 @@ const Carousel = () => {
                         <div className="name">{slide.name}</div>
                         <div className="text">{slide.text}</div>
                         <div className="bottom-right">
-                          {/* <button className="signup">Sign Up</button> */}
-                          <button onClick={handleDonate} className="donate">Donate</button>
+                          <button onClick={handleSignup} className="carouselBtn">Sign Up</button>
+                          <button onClick={handleDonate} className="carouselBtn donate">Donate</button>
                         </div>
                       </>
                     )}
