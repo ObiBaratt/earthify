@@ -4,9 +4,11 @@ import { imageData } from "../../utils/imageData";
 
 import { charities } from "../../utils/charities";
 
-import signup from "../../utils/handleSignup";
 
-const Carousel = () => {
+import { CarouselProps } from "../../utils/interfaces";
+
+const Carousel = ({ hidden, setHidden }: CarouselProps) => {
+
     const [cur, setCur] = useState(0);
     const length = imageData.length;
 
@@ -26,7 +28,7 @@ const Carousel = () => {
       };
 
       const handleSignup = () => {
-
+        setHidden(!hidden);
       }
 
     return (

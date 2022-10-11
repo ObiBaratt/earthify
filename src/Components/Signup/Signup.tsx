@@ -1,14 +1,14 @@
 import { useState } from "react";
 
-import handleSignup from "../../utils/handleSignup";
+import signup from "../../utils/handleSignup";
 
 const Signup = () => {
     const [email, setEmail] = useState('');
 
-    const handleSubmit = (e: any) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
-         handleSignup(email);
+         signup(email);
 
          setEmail("");
     }

@@ -5,14 +5,17 @@ import "./Home.css";
 import Footer from "../../Components/Footer/Footer";
 import Signup from "../../Components/Signup/Signup";
 
+import { useState } from "react";
+
 const Home = () => {
+  const [hidden, setHidden] = useState(true);
     return (
       <>
         <Navbar />
         <div className="container">
           <div className="mainCentered">
-            <Carousel />
-            <Signup />
+            <Carousel hidden={hidden} setHidden={setHidden} />
+            {!hidden && <Signup />}
           </div>
         </div>
         <Footer />
