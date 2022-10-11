@@ -4,6 +4,7 @@ import Carousel from "../../Components/Carousel/Carousel";
 import "./Home.css";
 import Footer from "../../Components/Footer/Footer";
 import Signup from "../../Components/Signup/Signup";
+
 import { useState } from "react";
 
 const Home = () => {

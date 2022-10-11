@@ -6,11 +6,7 @@ This is our submisssion for the Earthify Hacks 2.0 Hackathon on 10/1/2022. The t
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chris-park-855577191/)
 
-
-### Backend: Saugat Karki
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saugat-karki/)
-
-### Full-Stack: Obi Baratt
+### Developer: Obi Baratt
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/obibaratt/)
 
 ## Inspiration
