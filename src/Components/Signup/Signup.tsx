@@ -1,9 +1,11 @@
 import { useState } from "react";
 
+import "./Signup.css";
 import signup from "../../utils/handleSignup";
 
 const Signup = () => {
-    const [email, setEmail] = useState('');
+    const [email, setEmail] = useState<string>('');
+    const [submitted, setSubmitted] = useState<boolean>(false);
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -11,14 +13,26 @@ const Signup = () => {
          signup(email);
 
          setEmail("");
+         setSubmitted(true);
+
     }
 
-    return (
-        <form id="contactForm" onSubmit={handleSubmit}>
-            <input type="text" value={email} placeholder="Email" onChange={(e) => {setEmail(e.target.value)}}></input>
-            <input type="submit" value="Submit" />
-    </form>
-    )
+    if (submitted) {
+        return (
+            <div className="thanks">
+                <h1>Thank you for saving animals!</h1>
+                <img src={"./imgs/thanks.webp"}  alt="turtle eating a heart shaped strawberry" />
+            </div>
+        )
+    }
+    else {
+        return (
+            <form id="contactForm" onSubmit={handleSubmit}>
+                <input className="inputField" type="text" value={email} placeholder="Email" onChange={(e) => {setEmail(e.target.value)}}></input>
+                <input className="submitButton" type="submit" value="Signup" />
+            </form>
+        )
+    }
 }
 
 export default Signup;
